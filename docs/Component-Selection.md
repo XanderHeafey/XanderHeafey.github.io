@@ -63,32 +63,37 @@ I will be choosing option 1. The MDOB128064V2V-WI comes with two screens at the 
 The JS5208 joystick button seems to be a good option. Although it is expensive, there does not seem to be much room for error when surface mounting. It is a small package, making the human interface much easier to use.
 
 ### ESP32-S3-WROOM-1-N4
-| ESP Info                                      | Answer | Help                                                                                                      |
-| --------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
-| Model                                         | ?      | Include the entire part number (leave off any letters at the end that specify the package type)           |
-| Product Page URL                              | ?      | Found on Espressif.com                                                                                    |
-| ESP32-S3-WROOM-1-N4 Datasheet URL             | ?      | Do not paste links directly into the table.  Use a [link](#)                                              |
-| ESP32 S3 Datasheet URL                        | ?      | Has more detail on functions                                                                              |
-| ESP32 S3 Technical Reference Manual URL       | ?      | Has details on I/O multiplexing, USB, and others                                                          |
-| Vendor link                                   | ?      | Digikey, Jameco, etc.  Do not paste links directly into the table.  Use a [link](#)                       |
-| Code Examples                                 | ?      | url(s) for libraries on github or other sites related to the microcontroller and your planned peripherals |
-| External Resources URL(s)                     | ?      | Search on Google and YouTube for other resources for each specific microcontroller.                       |
-| Unit cost                                     | ?      | Find on Digikey, Jameco, MPJA, or octopart                                                                |
-| Absolute Maximum Current for entire IC        | ?      | Find in the microcontroller datasheet                                                                     |
-| Supply Voltage Range                          | ?      | Min / Nominal / Max / Absolute Max, as found in datasheet                                                 |
-| Absolute Maximum current <br> (for entire IC) | ?      | as found in datasheet                                                                                     |
-| Maximum GPIO current <br> (per pin)           | ?      | as found in datasheet                                                                                     |
-| Supports External Interrupts?                 | ?      | as found in datasheet                                                                                     |
-| Required Programming Hardware, Cost, URL      | ?      | as found in datasheet                                                                                     |
 
-| Module         | # Available | Needed | Associated Pins (or * for any) |
+| ESP Info                                      | Answer |
+| --------------------------------------------- | ------ | 
+| Model                                         |ESP32-S3|
+| Product Page URL                              |[Link](https://www.espressif.com/en/products/socs/esp32-s3)| 
+| ESP32-S3-WROOM-1-N4 Datasheet URL             |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)|
+| ESP32 S3 Datasheet URL                        |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)|
+| ESP32 S3 Technical Reference Manual URL       |[Technical Manual](https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf)|
+| Vendor link                                   |[DigiKey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)|
+| Code Examples                                 |[Github](https://github.com/LilyGO/ESP32-OLED0.96-ssd1306)|
+| External Resources URL(s)                     |[Youtube](https://www.youtube.com/watch?v=VZDCkARFCPk&list=PLOkhax8xuWu2u3VHgXfjIoKpoQAHwBzvQ)|
+| Unit cost                                     |$2.95   |
+| Absolute Maximum Current for entire IC        |.5A     |
+| Supply Voltage Range                          |3.0(min)/3.3(nominal)/3.6(max)|
+| Maximum GPIO current <br> (per pin)           |40mA    |
+| Supports External Interrupts?                 |Yes     |
+| Required Programming Hardware, Cost, URL      |[Link](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html)|
+
+#### Rational for ESP32
+
+I choose the ESP32 because of the ability for any GPIO pin to work with I2C. I2C is crucial for my OLED screen, therefore this really mattered. I also like the interface of the ESP32 on VSCode. I feel much more confortable working with the ESP32 and with it being nearly $3, I can afford to mess up. 
+
+### My Role
+
+My Team is creating a project that simulates the equivalent gravity on certain planet in the solar system. My role is to create a HMI subsystem so that information about planets can be displayed. The HMI must also be able to toggle pins on and off and display sensor data. That stuff would be for my team and not the user. This information however would still be useful however. My role on my team is to also record notes and be good a documenting data when in team meetings. 
+
+#### HMI Needs from ESP 32
+
+| Module         | # Available | Needed | Pins chosen                    |
 | -------------- | ----------- | ------ | ------------------------------ |
-| UART           | ?           | ?      | ?                              |
-| external SPI\* | ?           | ?      | ?                              |
-| I2C            | ?           | ?      | ?                              |
-| GPIO           | ?           | ?      | ?                              |
-| ADC            | ?           | ?      | ?                              |
-| LED PWM        | ?           | ?      | ?                              |
-| Motor PWM      | ?           | ?      | ?                              |
-| USB Programmer | ?           | 1      | ?                              |
-| ...            |
+| UART           | 8           | 2      | IO17,I018                      |
+| I2C            | 39          | 2      | IO7, IO8                       |
+| GPIO           | 39          | 3      | IO4, IO5, IO6                  |
+| USB Programmer | 4           | 2      | TXD0, RXD0                     |
