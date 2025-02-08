@@ -32,3 +32,14 @@ I am choosing option 1 or The LM2575D2T because of its ease to surface mount and
 | Solution | Pros | Cons |
 |----------|------|------|
 |![AOM12864A0-0.96WW-ANO](MFG_AOM12864A0-0.96WW-ANO.png) $11.25 per<br> AOM12864A0-0.96WW-ANO [Link](https://www.digikey.com/en/products/detail/orient-display/AOM12864A0-0-96WW-ANO/22531926)|1. Simple data sheet<br>2. Cheaper price|1. Only monochrome white<br>2. SPI communication meaning more inputs|
+
+#### Option 3
+| Solution | Pros | Cons |
+|----------|------|------|
+|![NHD-1.8-160128UBC3](NHD-1.8-160128UBC3.jpg) $25.91 per<br> NHD-1.8-160128UBC3 [Link](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-1-8-160128UBC3/23334148)|1. Bigger screen<br>2. RGB customization|1. Extra layers of complexity due to its 20 connections.<br>2. Most expensive.|
+
+#### Selection
+
+I will be choosing option 1. The MDOB128064V2V-WI comes with two screens at the price of $22.06. Although the screens are small, it would be possible to have two screens instead of one for my block diagram. One screen could display a planet and the other would be able to display the planets info. Also, having two screen may make it easier to view sensor data and turn of GPIO pins. 
+
+### Input Interface

@@ -9,4 +9,5 @@ tags:
 
 Hello, my name is Xander Heafey. This website is designed to catalog the process used to make my own sub system. Links to related pages are below. <br>
 
-[Block Diagram](Block-Diagram.md)
+[Block Diagram](Block-Diagram.md)<br>
+[Component Selection](Component-Selection.md)
