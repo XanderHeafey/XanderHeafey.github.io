@@ -51,4 +51,44 @@ I will be choosing option 1. The MDOB128064V2V-WI comes with two screens at the 
 #### Option 2
 | Solution | Pros | Cons |
 |----------|------|------|
-|
+|![TL3301NF160QG-KR](TL3301NF160QG~TR.jpg) $0.25 per<br> TL3301NF160QG-KR [Link](https://www.digikey.com/en/products/detail/e-switch/TL3301NF160QG-KR/271564)|1. Simple and effective<br>2. Very cheap|1. Need multiple for an interface to function|
+
+#### Option 3
+| Solution | Pros | Cons |
+|----------|------|------|
+|![JS5208](141_JS5208.jpg) $3.71 per<br> JS5208 [Link](https://www.digikey.com/en/products/detail/e-switch/JS5208/1739634)|1. Compact Package<br>2. Simple surface mounting|1. Most expensive option|
+
+#### Selection
+
+The JS5208 joystick button seems to be a good option. Although it is expensive, there does not seem to be much room for error when surface mounting. It is a small package, making the human interface much easier to use.
+
+### ESP32-S3-WROOM-1-N4
+| ESP Info                                      | Answer | Help                                                                                                      |
+| --------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
+| Model                                         | ?      | Include the entire part number (leave off any letters at the end that specify the package type)           |
+| Product Page URL                              | ?      | Found on Espressif.com                                                                                    |
+| ESP32-S3-WROOM-1-N4 Datasheet URL             | ?      | Do not paste links directly into the table.  Use a [link](#)                                              |
+| ESP32 S3 Datasheet URL                        | ?      | Has more detail on functions                                                                              |
+| ESP32 S3 Technical Reference Manual URL       | ?      | Has details on I/O multiplexing, USB, and others                                                          |
+| Vendor link                                   | ?      | Digikey, Jameco, etc.  Do not paste links directly into the table.  Use a [link](#)                       |
+| Code Examples                                 | ?      | url(s) for libraries on github or other sites related to the microcontroller and your planned peripherals |
+| External Resources URL(s)                     | ?      | Search on Google and YouTube for other resources for each specific microcontroller.                       |
+| Unit cost                                     | ?      | Find on Digikey, Jameco, MPJA, or octopart                                                                |
+| Absolute Maximum Current for entire IC        | ?      | Find in the microcontroller datasheet                                                                     |
+| Supply Voltage Range                          | ?      | Min / Nominal / Max / Absolute Max, as found in datasheet                                                 |
+| Absolute Maximum current <br> (for entire IC) | ?      | as found in datasheet                                                                                     |
+| Maximum GPIO current <br> (per pin)           | ?      | as found in datasheet                                                                                     |
+| Supports External Interrupts?                 | ?      | as found in datasheet                                                                                     |
+| Required Programming Hardware, Cost, URL      | ?      | as found in datasheet                                                                                     |
+
+| Module         | # Available | Needed | Associated Pins (or * for any) |
+| -------------- | ----------- | ------ | ------------------------------ |
+| UART           | ?           | ?      | ?                              |
+| external SPI\* | ?           | ?      | ?                              |
+| I2C            | ?           | ?      | ?                              |
+| GPIO           | ?           | ?      | ?                              |
+| ADC            | ?           | ?      | ?                              |
+| LED PWM        | ?           | ?      | ?                              |
+| Motor PWM      | ?           | ?      | ?                              |
+| USB Programmer | ?           | 1      | ?                              |
+| ...            |
