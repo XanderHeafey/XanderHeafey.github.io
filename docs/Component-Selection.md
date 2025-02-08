@@ -89,7 +89,7 @@ I choose the ESP32 because of the ability for any GPIO pin to work with I2C. I2C
 
 My Team is creating a project that simulates the equivalent gravity on certain planet in the solar system. My role is to create a HMI subsystem so that information about planets can be displayed. The HMI must also be able to toggle pins on and off and display sensor data. That stuff would be for my team and not the user. This information however would still be useful however. My role on my team is to also record notes and be good a documenting data when in team meetings. 
 
-#### HMI Needs from ESP 32
+#### HMI Needs For ESP 32
 
 | Module         | # Available | Needed | Pins chosen                    |
 | -------------- | ----------- | ------ | ------------------------------ |
