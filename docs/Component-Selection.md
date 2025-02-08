@@ -43,3 +43,12 @@ I am choosing option 1 or The LM2575D2T because of its ease to surface mount and
 I will be choosing option 1. The MDOB128064V2V-WI comes with two screens at the price of $22.06. Although the screens are small, it would be possible to have two screens instead of one for my block diagram. One screen could display a planet and the other would be able to display the planets info. Also, having two screen may make it easier to view sensor data and turn of GPIO pins. 
 
 ### Input Interface
+#### Option 1
+| Solution | Pros | Cons |
+|----------|------|------|
+|![JS1300AQ](JS1300AQ.jpg) $2.18 per<br> JS1300AQ [Link](https://www.digikey.com/en/products/detail/e-switch/JS1300AQ/1556576)|1. Conveniently packaged<br>2. Simple data sheet|1. Price relative to other pushbuttons<br>2. Might press buttons on accident|
+
+#### Option 2
+| Solution | Pros | Cons |
+|----------|------|------|
+|
