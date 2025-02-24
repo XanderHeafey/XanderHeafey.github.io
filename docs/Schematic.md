@@ -18,4 +18,5 @@ All parts at the time of making the schematic, are able to be bought off of Digi
 
 The power budget bellow describes the absolute current that each major component either supplys or demands. With this in mind, it confirms that every major can be powered and given enough current to function. <br>
 
-![Power Budget](Power%20Budget%20-%20Sheet1-1_page-0001.jpg)
+![Power Budget](Updated%20Power%20Budget%20-%20Sheet1_page-0001.jpg)
+[PDF](Updated%20Power%20Budget%20-%20Sheet1.pdf)
