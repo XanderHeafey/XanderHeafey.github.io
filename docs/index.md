@@ -12,3 +12,4 @@ Hello, my name is Xander Heafey. This website is designed to catalog the process
 [Block Diagram](Block-Diagram.md)<br>
 [Component Selection](Component-Selection.md)<br>
 [Schematic](Schematic.md)<br>
+[Bill of Materials](BOM.md)<br>
