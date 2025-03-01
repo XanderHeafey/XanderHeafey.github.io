@@ -13,3 +13,4 @@ Hello, my name is Xander Heafey. This website is designed to catalog the process
 [Component Selection](Component-Selection.md)<br>
 [Schematic](Schematic.md)<br>
 [Bill of Materials](BOM.md)<br>
+[Link To Team Site](https://egr314-2025-s-301.github.io/main-page/index.html)<br>
