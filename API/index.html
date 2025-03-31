@@ -459,15 +459,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#direct-drive-message" class="md-nav__link">
-    Direct Drive Message
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#desired-speed" class="md-nav__link">
-    Desired Speed
+  <a href="#direct-drive-and-speed-message" class="md-nav__link">
+    Direct Drive and Speed Message
   </a>
   
 </li>
@@ -645,15 +638,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#direct-drive-message" class="md-nav__link">
-    Direct Drive Message
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#desired-speed" class="md-nav__link">
-    Desired Speed
+  <a href="#direct-drive-and-speed-message" class="md-nav__link">
+    Direct Drive and Speed Message
   </a>
   
 </li>
@@ -682,7 +668,7 @@
 
 
 <h1 id="message-structure">Message Structure</h1>
-<h2 id="direct-drive-message">Direct Drive Message</h2>
+<h2 id="direct-drive-and-speed-message">Direct Drive and Speed Message</h2>
 <table>
 <thead>
 <tr>
@@ -699,69 +685,27 @@
 </tr>
 <tr>
 <td>Variable Type</td>
-<td>uint8_t</td>
-<td>int8_t</td>
+<td>Char</td>
+<td>Char</td>
 </tr>
 <tr>
 <td>Min Value</td>
 <td>0</td>
-<td>-200</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Max Value</td>
 <td>1</td>
-<td>200</td>
+<td>9</td>
 </tr>
 <tr>
 <td>Example</td>
 <td>1</td>
-<td>100</td>
+<td>5</td>
 </tr>
 <tr>
 <td>Use</td>
 <td>Tells motor to spin left or right.</td>
-<td>Tells motor what speed to spin at.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="desired-speed">Desired Speed</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Varable Name</td>
-<td>Change Speed</td>
-<td>Motor Speed</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>int8_t</td>
-<td>int8_t</td>
-</tr>
-<tr>
-<td>Min Value</td>
-<td>1</td>
-<td>-200</td>
-</tr>
-<tr>
-<td>Max Value</td>
-<td>9</td>
-<td>200</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>5</td>
-<td>150</td>
-</tr>
-<tr>
-<td>Use</td>
-<td>Tells motor to change speed</td>
 <td>Tells motor what speed to spin at.</td>
 </tr>
 </tbody>
