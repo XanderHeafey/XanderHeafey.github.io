@@ -11,8 +11,13 @@ The Human Interface is a joystick like button that allows users to scroll up, do
 
 All parts at the time of making the schematic, are able to be bought off of Digikey. Links to the Packed Altium Project and PDF Schematics are below. <br>
 
-[PDF](Revision%202%20Schematic.pdf) <br>
-[Zip](X.Heafey_HMI_Subsystem%20(2-28-2025%201-51-54%20PM).zip)
+[PDF](Final%20Schematic.pdf) <br>
+[Zip](X.Heafey_HMI_Subsystem%20(4-17-2025%204-51-30%20PM).zip)
+
+# PCB Layers
+
+![TopLayer](Top%20layer-1.png)
+![BottomLayer](Screenshot%202025-04-17%20164459.png)
 
 # Power Budget
 
