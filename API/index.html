@@ -459,9 +459,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#messages-sent" class="md-nav__link">
+    Messages Sent
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Sent">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#direct-drive-and-speed-message" class="md-nav__link">
     Direct Drive and Speed Message
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-recieved" class="md-nav__link">
+    Messages Recieved
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Recieved">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distantce-data" class="md-nav__link">
+    Distantce Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -638,9 +671,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#messages-sent" class="md-nav__link">
+    Messages Sent
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Sent">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#direct-drive-and-speed-message" class="md-nav__link">
     Direct Drive and Speed Message
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-recieved" class="md-nav__link">
+    Messages Recieved
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Recieved">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distantce-data" class="md-nav__link">
+    Distantce Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -668,7 +734,51 @@
 
 
 <h1 id="message-structure">Message Structure</h1>
-<h2 id="direct-drive-and-speed-message">Direct Drive and Speed Message</h2>
+<h2 id="messages-sent">Messages Sent</h2>
+<h3 id="direct-drive-and-speed-message">Direct Drive and Speed Message</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Varable Name</td>
+<td>Change Direction</td>
+<td>Motor Speed</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>Char</td>
+<td>Char</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>1</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Use</td>
+<td>Tells motor to spin left or right.</td>
+<td>Tells motor what speed to spin at.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="messages-recieved">Messages Recieved</h2>
+<h3 id="distantce-data">Distantce Data</h3>
 <table>
 <thead>
 <tr>
