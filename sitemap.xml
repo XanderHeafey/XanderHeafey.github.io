@@ -11,17 +11,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/template_report/BOM/</loc>
-         <lastmod>2025-04-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://embedded-systems-design.github.io/template_report/Block-Diagram/</loc>
          <lastmod>2025-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/Component-Selection/</loc>
+         <lastmod>2025-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Resources/</loc>
          <lastmod>2025-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/Schematic/">
       
       
-        <link rel="prev" href="../Component-Selection/">
+        <link rel="prev" href="../Resources/">
       
       
         <link rel="next" href="../charts/">
@@ -236,23 +236,6 @@
   
   
     <li class="md-tabs__item">
-      <a href="../BOM/" class="md-tabs__link">
-        
-  
-    
-  
-  Bill of Materials
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
       <a href="../Block-Diagram/" class="md-tabs__link">
         
   
@@ -276,6 +259,23 @@
     
   
   Component Selection
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Resources/" class="md-tabs__link">
+        
+  
+    
+  
+  Resources
 
       </a>
     </li>
@@ -432,25 +432,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../BOM/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Bill of Materials
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../Block-Diagram/" class="md-nav__link">
         
   
@@ -475,6 +456,25 @@
   
   <span class="md-ellipsis">
     Component Selection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
   </span>
   
 
@@ -617,14 +617,22 @@
 
 <h1 id="hmi-subsystem">HMI Subsystem</h1>
 <p><a class="glightbox" href="../Revision%202%20Schematic_page-0001.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Schematic" src="../Revision%202%20Schematic_page-0001.jpg" /></a></p>
-<p>This schematic is my first revision for an OLED HMI subsystem. Design choices regarding the microcontroller were made according to the <a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">ESP 32 datasheet</a>. On page 42, there is a section describing what basic peripherals should look like. This included the EN and Boot functions that the board provides. A descrption of each section will be provided bellow.</p>
-<p>The Human Interface is a joystick like button that allows users to scroll up, down, and selected on the OLED screen. The header pins are used to connect to an OLED screen because there are close to no options for an OLED surface mount system. The daisy chain layout is there to provide back and forth communication for all subsystems. The system can also be powered via the daisy chain and also pass the power along it. Speaking of power, the 3.3v switching regulator mirror is datasheet schematic. It also is recommended that a power supply 4.75v to 40v is selected to insure the the board will always function..<br></p>
+<p>This schematic is my final revision for an OLED HMI subsystem. Design choices regarding the microcontroller were made according to the <a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">ESP 32 datasheet</a>. On page 42, there is a section describing what basic peripherals should look like. This included the EN and Boot functions that the board provides. A descrption of each section will be provided bellow.</p>
+<p>The Human Interface is a joystick like button that allows users to scroll up, down, and selected on the OLED screen. The header pins are used to connect to an OLED screen because there are next to no options for an OLED surface mount system. The daisy chain layout is there to provide back and forth communication for all subsystems. The system can also be powered via the daisy chain and also pass the power along it. Speaking of power, the 3.3v switching regulator mirror is datasheet schematic. It also is recommended that a power supply 4.75v to 40v is selected to insure the the board will always function.<br></p>
+<p>With this system a user will be able to control the speed of the centrifuge using the joystick and a screen. When the user selects an option, a message will be sent to another system controling the motor, simulating planent gravity. Distance data can be seen as well to tell the user to get further from the motor when on. This distance data will be sent from another system. This lets a user do everything they could want with our project and meets product requirements for sending and reciving data, and being a usable human interface. <br></p>
 <p>All parts at the time of making the schematic, are able to be bought off of Digikey. Links to the Packed Altium Project and PDF Schematics are below. <br></p>
 <p><a href="../Final%20Schematic.pdf">PDF</a> <br>
 <a href="../X.Heafey_HMI_Subsystem%20%284-17-2025%204-51-30%20PM%29.zip">Zip</a></p>
 <h1 id="pcb-layers">PCB Layers</h1>
 <p><a class="glightbox" href="../Top%20layer-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="TopLayer" src="../Top%20layer-1.png" /></a>
 <a class="glightbox" href="../Screenshot%202025-04-17%20164459.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="BottomLayer" src="../Screenshot%202025-04-17%20164459.png" /></a></p>
+<p>Gerber Files for JLC manufacturing<br>
+<a class="glightbox" href="../Gerber%20and%20Drill.zip" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Zip" src="../Gerber%20and%20Drill.zip" /></a></p>
+<h1 id="bill-of-materials">Bill of Materials</h1>
+<p><a class="glightbox" href="../Final%20BOM-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="BOM" src="../Final%20BOM-1.png" /></a>
+<a href="../Final%20BOM.pdf">PDF</a><br></p>
+<p>Above is my bill of materials. The initial OLED screen I choose was just to expensive. Therefore I selected a version that we would be using in class so that I would not have to purchase it. A pdf was provided so that you could click on the links. Also the datasheets for each component can be downloaded in the link below.<br></p>
+<p><a href="../Datasheets.zip">Datasheets</a><br></p>
 
 
 
@@ -652,7 +660,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Component-Selection/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Component Selection" rel="prev">
+          <a href="../Resources/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Resources" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -662,7 +670,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Component Selection
+                Resources
               </div>
             </div>
           </a>
