@@ -36,12 +36,12 @@ I am choosing option 1 or The LM2575D2T-3.3R4G because of its ease to surface mo
 #### Option 3
 | Solution | Pros | Cons |
 |----------|------|------|
-|![NHD-1.8-160128UBC3](41KsMWu68YL._AC_.jpg) $25.91 per<br> NHD-1.8-160128UBC3 [Link](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-1-8-160128UBC3/23334148)|1. Bigger screen<br>2. RGB customization|1. Extra layers of complexity due to its 20 connections.<br>2. Most expensive.|
+|![NHD-1.8-160128UBC3](NHD-1.8-160128UBC3.jpg) $25.91 per<br> NHD-1.8-160128UBC3 [Link](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-1-8-160128UBC3/23334148)|1. Bigger screen<br>2. RGB customization|1. Extra layers of complexity due to its 20 connections.<br>2. Most expensive.|
 
 #### Option 4
 | Solution | Pros | Cons |
 |----------|------|------|
-|![NHD-1.8-160128UBC3](NHD-1.8-160128UBC3.jpg) $12.88 per<br> Teyleten Robot 0.96 [Link](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B0CN373JF4?dib=eyJ2IjoiMSJ9.fOJsygU5O4jcc9F_7YyAOZ_Q62G58GYNDIiZQrLcAWJEar3CMOS083YZD1oJE0lasNOhvBNFf2v8NZK5-S5l0enupVYgMERv-f8Ii5EYGo6tCr5dPIudwgBRz5j85WezVN-CW38n6iSrSz_57TCbmiWtspKiyQeb0imTHU9VXVBEL517fnzVNRVJv263Jml-Wv3wMnzfhHXqdk7HatxOgihRtsoeDJ8RQEAonUBQu9k.RDuAketkGnxbTck9X2QCV2EGyG8VGQzexUdBxkSao0c&dib_tag=se&keywords=OLED+Arduino&qid=1745868855&sr=8-20)|1. In class support<br>|1. Small screen.|
+|![Teyleten Robot .96](41KsMWu68YL._AC_.jpg) $12.88 per<br> Teyleten Robot 0.96 [Link](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B0CN373JF4?dib=eyJ2IjoiMSJ9.fOJsygU5O4jcc9F_7YyAOZ_Q62G58GYNDIiZQrLcAWJEar3CMOS083YZD1oJE0lasNOhvBNFf2v8NZK5-S5l0enupVYgMERv-f8Ii5EYGo6tCr5dPIudwgBRz5j85WezVN-CW38n6iSrSz_57TCbmiWtspKiyQeb0imTHU9VXVBEL517fnzVNRVJv263Jml-Wv3wMnzfhHXqdk7HatxOgihRtsoeDJ8RQEAonUBQu9k.RDuAketkGnxbTck9X2QCV2EGyG8VGQzexUdBxkSao0c&dib_tag=se&keywords=OLED+Arduino&qid=1745868855&sr=8-20)|1. In class support<br>|1. Small screen.|
 
 #### Selection
 

@@ -1,5 +1,5 @@
 ---
-title: Bill of Materials
+title: Resources
 ---
 
 ![BOM](BOM%20-%20Sheet1_page-0001.jpg)
