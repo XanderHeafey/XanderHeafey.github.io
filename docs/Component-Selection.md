@@ -6,7 +6,7 @@ title: Component Selection
 #### Option 1
 | Solution | Pros | Cons |
 |----------|------|------|
-|![LM2575D2T](LM2575D2T-3.3G.jpg) $1.86 per<br> LM2575D2T-3.3G [Link](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3G/1476686)|1. Experience with this component before<br>2. Fixed<br>3.Easier to surface mount by hand|1. Large Surface mount component| 
+|![LM2575D2T](LM2575D2T-3.3G.jpg) $1.86 per<br> LM2575D2T-3.3R4G [Link](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688)|1. Experience with this component before<br>2. Fixed<br>3.Easier to surface mount by hand|1. Large Surface mount component| 
 
 #### Option 2
 | Solution | Pros | Cons |
@@ -20,7 +20,7 @@ title: Component Selection
 
 #### Selection
 
-I am choosing option 1 or The LM2575D2T because of its ease to surface mount and also the fact that I have made circuits with this component before. I do not believe that its size will be a problem in the construction of my subsystem as of right now. Also it could easily connect to different power supplies based off the input voltage variance given in the data sheet. 
+I am choosing option 1 or The LM2575D2T-3.3R4G because of its ease to surface mount and also the fact that I have made circuits with this component before. I do not believe that its size will be a problem in the construction of my subsystem as of right now. Also it could easily connect to different power supplies based off the input voltage variance given in the data sheet. 
 
 ### OLED Screen
 #### Option 1
@@ -36,11 +36,16 @@ I am choosing option 1 or The LM2575D2T because of its ease to surface mount and
 #### Option 3
 | Solution | Pros | Cons |
 |----------|------|------|
-|![NHD-1.8-160128UBC3](NHD-1.8-160128UBC3.jpg) $25.91 per<br> NHD-1.8-160128UBC3 [Link](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-1-8-160128UBC3/23334148)|1. Bigger screen<br>2. RGB customization|1. Extra layers of complexity due to its 20 connections.<br>2. Most expensive.|
+|![NHD-1.8-160128UBC3](41KsMWu68YL._AC_.jpg) $25.91 per<br> NHD-1.8-160128UBC3 [Link](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-1-8-160128UBC3/23334148)|1. Bigger screen<br>2. RGB customization|1. Extra layers of complexity due to its 20 connections.<br>2. Most expensive.|
+
+#### Option 4
+| Solution | Pros | Cons |
+|----------|------|------|
+|![NHD-1.8-160128UBC3](NHD-1.8-160128UBC3.jpg) $12.88 per<br> Teyleten Robot 0.96 [Link](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B0CN373JF4?dib=eyJ2IjoiMSJ9.fOJsygU5O4jcc9F_7YyAOZ_Q62G58GYNDIiZQrLcAWJEar3CMOS083YZD1oJE0lasNOhvBNFf2v8NZK5-S5l0enupVYgMERv-f8Ii5EYGo6tCr5dPIudwgBRz5j85WezVN-CW38n6iSrSz_57TCbmiWtspKiyQeb0imTHU9VXVBEL517fnzVNRVJv263Jml-Wv3wMnzfhHXqdk7HatxOgihRtsoeDJ8RQEAonUBQu9k.RDuAketkGnxbTck9X2QCV2EGyG8VGQzexUdBxkSao0c&dib_tag=se&keywords=OLED+Arduino&qid=1745868855&sr=8-20)|1. In class support<br>|1. Small screen.|
 
 #### Selection
 
-I will be choosing option 1. The MDOB128064V2V-WI comes with two screens at the price of $22.06. Although the screens are small, it would be possible to have two screens instead of one for my block diagram. One screen could display a planet and the other would be able to display the planets info. Also, having two screen may make it easier to view sensor data and turn of GPIO pins. 
+I originally choose option 1, however after reviewing the BOM, it was more cost effective to choose the in class oled screen given to us. This screen is option 4. There was an assignment where all the file require to get the screen working were given. This made setup quite easy. 
 
 ### Input Interface
 #### Option 1
@@ -93,7 +98,27 @@ My Team is creating a project that simulates the equivalent gravity on certain p
 
 | Module         | # Available | Needed | Pins chosen                    |
 | -------------- | ----------- | ------ | ------------------------------ |
-| UART           | 8           | 2      | IO17,I018                      |
+| UART           | 8           | 2      | IO37,I038                      |
 | I2C            | 39          | 2      | IO7, IO8                       |
 | GPIO           | 39          | 3      | IO4, IO5, IO6                  |
-| USB Programmer | 4           | 2      | TXD0, RXD0                     |
+| USB Programmer | 4           | 2      | I019, I020                     |
+
+### Final Major Components Selected
+
+| Components          |
+| ------------------- |
+| LM2575D2T-3.3R4G    |
+| Teyleten Robot 0.96 |
+| JS5208              |
+| ESP32-s3-WROOM-1-N4 |
+
+This section is a list of the final major components my subsystem uses. These componenets meet my product requirements by being able to create a system where inputs are able tp control and select options on a screen and send that data to another system. The voltage regulator would power this process. 
+
+### Power Budget
+
+The power budget bellow describes the absolute current that each major component either supplys or demands. With this in mind, it confirms that every major can be powered and given enough current to function. <br>
+
+![Power Budget](Power%20Budget%202.jpg)
+[PDF](Power%20Budget%202.pdf)
+
+After creating the subsystem, I can confirm that this budget holds true because my system can function. This table help me confirm that all the components that I selected function together. 
