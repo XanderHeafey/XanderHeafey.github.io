@@ -22,6 +22,12 @@ All parts at the time of making the schematic, are able to be bought off of Digi
 Gerber Files for JLC manufacturing<br>
 ![Zip](Gerber%20and%20Drill.zip)
 
+## Team PCB Layers
+
+Sara's board<br>
+![SB Front](SB%20Front.png)
+![SB Back](SB%20Back.png)
+
 # Team System 
 
 This is my teams project. It is a centrifuge gravity simulator. If a user is far away enough from the motor, they can select a planet and the centrifuge will spin at different speed depending on selection. The user can also spin the motor in a different direction and see sensor data. A distance sensor is used to make sure the user is away from the spinning parts. The motor data will also be sent over wifi.<br>
