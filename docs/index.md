@@ -14,4 +14,4 @@ Hello, my name is Xander Heafey. This website is designed to catalog the process
 [Schematic](Schematic.md)<br>
 [API](API.md)<br>
 [Resources](Resources.md)<br>
-[Link To Team Site](https://egr314-2025-s-301.github.io/main-page/index.html)<br>
+[Link To Team Site](https://egr314-2025-s-301.github.io/)<br>
